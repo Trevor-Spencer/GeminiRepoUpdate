@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruity Delights</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: linear-gradient(to right, #ff9999, #66b3ff);
+        }
+
+        h1, h2, h3 {
+            margin: 1rem 0;
+            text-align: center;
+        }
+
+        p {
+            margin: 0.5rem 0;
+            line-height: 1.5;
+        }
+
+        a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        img {
+            width: 100%;
+            display: block;
+        }
+
+        /* Header Styling */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        header a {
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+
+        /* Product Section Styling */
+        .product {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 2rem 0;
+        }
+
+        .product-item {
+            width: 30%;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .product-item img {
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            padding: 1rem 2rem;
+            background-color: #f2f2f2;
+            color: #666;
+        }
+
+        /* Form Styling */
+        #contact-form {
+            padding: 1rem;
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            margin: 2rem auto;
+            max-width: 500px;
+        }
+
+        #contact-form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        #contact-form input,  #contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            margin-bottom: 1rem;
+        }
+
+        #contact-form textarea {
+            height: 100px;
+        }
+
+        #contact-form button {
+            background-color: #66b3ff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        /* Media Queries */
+        @media only screen and (max-width: 768px) {
+            .product-item {
+                width: 50%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Fruity Delights</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+        </nav>
+    </header>
+
+    <section class="product">
+        <h2>Our Fresh and Delicious Apples</h2>
+        <img src="images/apples.jpg" alt="Fresh Apples">
+        <p>We offer a wide variety of fresh and delicious apples, carefully hand-picked at the peak of ripeness. 
+            Our apples are grown using sustainable practices and come in a range of flavors, from tart and juicy to 
+            sweet and crisp. Whether you're looking for a healthy snack or the perfect ingredient for your favorite recipes, 
+            our apples are sure to satisfy.</p>
+        
